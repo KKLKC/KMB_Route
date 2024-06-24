@@ -1,0 +1,124 @@
+/* style.css */
+
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+.container {
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+}
+
+.search-box {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+#routeInput {
+padding: 8px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-radius: 4px;
+width: 200px;
+}
+
+#searchBtn {
+padding: 8px 15px;
+font-size: 16px;
+border: none;
+background-color: red;
+color: white;
+border-radius: 4px;
+cursor: pointer;
+margin-left: 10px;
+}
+
+.results {
+margin-top: 20px;
+}
+
+.routeSearchedList button {
+display: block;
+width: 100%;
+padding: 10px;
+margin-bottom: 10px;
+text-align: left;
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.stopContainer {
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+border-radius: 4px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.stopNumber {
+font-weight: bold;
+margin-bottom: 8px;
+}
+
+.etaList {
+display: none;
+margin-top: 10px;
+padding-left: 20px;
+}
+
+.etaItem {
+margin-bottom: 5px;
+}
+
+.alertContainer {
+margin-top: 20px;
+}
+
+.alertMessage {
+padding: 10px;
+background-color: #f44336;
+color: white;
+border-radius: 4px;
+}
+
+#KMB_logo{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+}
+
+/* Add this CSS to style.css */
+
+/* Modify this CSS in style.css */
+
+.routeSearchedList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+.routeSearchedList button {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
